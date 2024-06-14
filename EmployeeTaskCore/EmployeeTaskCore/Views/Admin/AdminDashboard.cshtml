@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "AdminDashboard";
+}
+
+@* <h2>@ViewBag.MySession</h2> *@
+
+<div class="row container mt-5">
+    <div class="col-sm-6 d-flex justify-content-center align-content-center">
+        <div class="justify-content-center align-content-center">
+            <div class="">
+                <a asp-controller="Admin" asp-action="DisplayEmployee" class="btn btn-info btn-block px-5 py-3 m-3">View Profile</a>
+            </div>
+            <div class="">
+                <a asp-controller="Admin" asp-action="ProjectInformation" class="btn btn-info btn-block px-5 py-3 m-3">Project Details</a>
+            </div>
+            <div class="">
+                <a asp-controller="Admin" asp-action="EmployeeLeave" class="btn btn-warning btn-block px-5 py-3 m-3 text-white">Leave System</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class=" col-sm-6 d-flex justify-content-center align-content-center">
+        <div class="justify-content-center align-content-center">
+            <div class="">
+                <a asp-controller="Admin" asp-action="CompleteProjectInformation" class="btn btn-success btn-block px-5 py-3 m-3">Projects Information</a>
+            </div>
+            <div class="">
+                <a asp-controller="Admin" asp-action="CompleteRoleInformation" class="btn btn-success btn-block px-5 py-3 m-3">Roles Information</a>
+            </div>
+            <div class="">
+                <a asp-controller="Admin" asp-action="CompleteEmployeeInformation" class="btn btn-secondary btn-block px-5 py-3 m-3">EmployeesDetails</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<hr />

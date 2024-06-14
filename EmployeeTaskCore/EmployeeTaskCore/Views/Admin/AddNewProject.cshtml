@@ -1,0 +1,50 @@
+﻿@model EmployeeTaskCore.Models.EmployeeProjectModel
+
+@{
+    ViewData["Title"] = "AddNewProject";
+}
+
+<div class="mt-4 mb-2">
+    <h3 class="">Add New Project</h3>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddNewProject">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ProjectId" class="control-label"></label>
+                <input asp-for="ProjectId" class="form-control" />
+                <span asp-validation-for="ProjectId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ProjectName" class="control-label"></label>
+                <input asp-for="ProjectName" class="form-control" />
+                <span asp-validation-for="ProjectName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DueDate" class="control-label"></label>
+                <input asp-for="DueDate" class="form-control" />
+                <span asp-validation-for="DueDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Resources" class="control-label"></label>
+                <input asp-for="Resources" class="form-control" />
+                <span asp-validation-for="Resources" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ADD" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CompleteProjectInformation" class="btn btn-secondary">Goto Projects</a>
+</div>
+

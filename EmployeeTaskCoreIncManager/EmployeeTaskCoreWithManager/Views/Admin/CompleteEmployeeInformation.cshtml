@@ -1,0 +1,65 @@
+﻿@model IEnumerable<CoreTaskEmployee.Models.EmployeeCompleteModel>
+
+@{
+    ViewData["Title"] = "Get Employee Details";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Date of Joining</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Contact</th>
+            <th>Blood Group</th>
+            <th>Project</th>
+            <th>Role</th>
+            <th>Paid Leaves Taken</th>
+            <th>Paid Leaves Remaining</th>
+            <th>Payloss Leaves Taken</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmployeeId</td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.EmployeeDOB</td>
+                <td>@employee.EmployeeDOJ</td>
+                <td>@employee.EmployeeCity</td>
+                <td>@employee.EmployeeState</td>
+                <td>@employee.EmployeeCountry</td>
+                <td>@employee.EmployeeContact</td>
+                <td>@employee.EmployeeBloodGroup</td>
+                <td>@employee.EmployeeProject</td>
+                <td>@employee.EmployeeRole</td>
+                <td>@employee.EmployeePaidLeavesTaken</td>
+                <td>@employee.EmployeePaidLeavesRemaining</td>
+                <td>@employee.EmployeePaylossLeavesTaken</td>
+                <td>
+                    <a asp-action="EditEmployee" asp-route-EmployeeId="@employee.EmployeeId" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="DeleteEmployee" asp-route-EmployeeId="@employee.EmployeeId" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="my-4">
+    <a asp-action="AddNewEmployee" class="btn btn-success p-2">Add New Employee</a>
+</div>
+
+<div>
+    <a asp-action="AdminDashboard" class="btn btn-secondary">Go To Dashboard</a>
+</div>

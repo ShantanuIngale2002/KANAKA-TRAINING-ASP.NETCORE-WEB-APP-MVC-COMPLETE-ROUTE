@@ -1,0 +1,95 @@
+﻿@model CoreTaskEmployee.Models.EmployeeDisplayModel
+
+@{
+    ViewData["Title"] = "DisplayEmployee";
+}
+
+<h1>DisplayEmployee</h1>
+
+<div>
+    <h4>EmployeeDisplayModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeName)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeName)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeDOB)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeDOB)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeDOJ)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeDOJ)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeCity)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeCity)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeState)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeState)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeCountry)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeCountry)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeContact)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeContact)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeBloodGroup)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeBloodGroup)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeProject)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeProject)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeeRole)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeeRole)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaidLeavesTaken)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeePaidLeavesTaken)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaidLeavesRemaining)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeePaidLeavesRemaining)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaylossLeavesTaken)
+        </dt>
+        <dd class = "4">
+            @Html.DisplayFor(model => model.EmployeePaylossLeavesTaken)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="EmployeeOrAdmin" class="btn btn-info btn-block">Dashboard</a>
+</div>

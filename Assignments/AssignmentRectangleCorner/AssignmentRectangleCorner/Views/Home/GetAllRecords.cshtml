@@ -1,0 +1,43 @@
+﻿@model IEnumerable<AssignmentRectangleCorner.Model.TestCaseModel>
+
+
+
+<h1 class="my-3">Test Cases History</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                Test Case
+            </th>
+            <th>
+                Answer
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.testcaseid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Testcase)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Answer)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+<div class="my-2">
+    <a asp-controller="Home" asp-action="QuestionPage" class="btn btn-secondary">Solve New Case</a>
+</div>

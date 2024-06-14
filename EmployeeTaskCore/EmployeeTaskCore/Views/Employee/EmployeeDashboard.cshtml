@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "EmployeeDashboard";
+}
+
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-center align-content-center">
+        <div class="justify-content-center align-content-center">
+            <div class="">
+                <a asp-controller="Employee" asp-action="DisplayEmployee" class="btn btn-success btn-block px-5 py-3 m-3">View Profile</a>
+            </div>
+            <div class="">
+                <a asp-controller="Employee" asp-action="ProjectInformation" class="btn btn-primary btn-block px-5 py-3 m-3">Project Details</a>
+            </div>
+            <div class="">
+                <a asp-controller="Employee" asp-action="EmployeeLeave" class="btn btn-warning btn-block px-5 py-3 m-3 text-white">Leave System</a>
+            </div>
+        </div>
+    </div>
+</div>

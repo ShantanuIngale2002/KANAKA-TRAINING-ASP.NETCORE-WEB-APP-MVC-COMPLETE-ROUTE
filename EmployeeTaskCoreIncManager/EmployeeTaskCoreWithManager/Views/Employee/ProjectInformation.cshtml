@@ -1,0 +1,47 @@
+﻿@model EmployeeTaskCore.Models.EmployeeProjectModel
+
+@{
+    ViewData["Title"] = "ProjectInformation";
+}
+
+<h1>ProjectInformation</h1>
+
+<div>
+    <h4>EmployeeProjectModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ProjectId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ProjectId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ProjectName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ProjectName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StartDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DueDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DueDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Resources)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Resources)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="EmployeeOrAdmin" class="btn btn-info btn-block">Dashboard</a>
+</div>

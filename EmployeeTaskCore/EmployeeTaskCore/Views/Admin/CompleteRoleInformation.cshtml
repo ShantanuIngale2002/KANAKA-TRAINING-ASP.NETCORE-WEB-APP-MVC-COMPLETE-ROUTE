@@ -1,0 +1,38 @@
+﻿@model IEnumerable<EmployeeTaskCore.Models.EmployeeRoleModel>
+
+@{
+    ViewData["Title"] = "Complete Role Information";
+}
+
+<div class="mt-4 mb-2">
+    <h3 class="text-center">All Roles Information</h3>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Role ID</th>
+            <th>Role Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var role in Model)
+        {
+            <tr>
+                <td>@role.RoleId</td>
+                <td>@role.RoleName</td>
+                <td>
+                    <a asp-action="EditRole" asp-route-roleId="@role.RoleId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="AddNewRole" class="btn btn-primary p-2 my-2">Add New Role</a>
+</div>
+
+<div>
+    <a asp-action="AdminDashboard" class="btn btn-secondary">Go To Dashboard</a>
+</div>

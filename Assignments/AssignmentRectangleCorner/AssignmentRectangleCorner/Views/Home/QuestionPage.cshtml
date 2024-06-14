@@ -1,0 +1,62 @@
+﻿@model AssignmentRectangleCorner.Model.TestCaseModel
+
+@{
+    ViewData["Title"] = "QuestionPage";
+}
+
+
+
+<h4 class="my-3">Maximum of all minimum possible rectangles in matrix.</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="QuestionPage">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Row" class="control-label"></label>
+                <input asp-for="Row" class="form-control" />
+                <span asp-validation-for="Row" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Column" class="control-label"></label>
+                <input asp-for="Column" class="form-control" />
+                <span asp-validation-for="Column" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Testcase" class="control-label"></label>
+                <textarea asp-for="Testcase" class="form-control" rows="5"></textarea>
+                <span asp-validation-for="Testcase" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Generate Answer" class="btn btn-primary" />
+            </div>
+        </form>
+
+
+        @{
+            if (Model != null)
+            {
+                <label asp-for="Answer" class="control-label"> The Answer Acquired is : </label>
+                <input asp-for="Answer" class="form-control" readonly/>
+            }
+        }
+
+
+
+    </div>
+</div>
+
+
+<div class="my-2">
+    <a asp-controller="Home" asp-action="QuestionPage" class="btn btn-info text-white">Refresh Everything</a>
+</div>
+<div class="my-2">
+    <a asp-controller="Home" asp-action="GetAllRecords" class="btn btn-secondary">History</a>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

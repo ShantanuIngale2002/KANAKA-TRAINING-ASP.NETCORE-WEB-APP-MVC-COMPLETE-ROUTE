@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\views\\home\\getallrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\views\\home\\getallrecords.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\repository\\testcaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\repository\\testcaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\views\\home\\questionpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\views\\home\\questionpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\model\\testcasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\model\\testcasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\assignments\\assignmentrectanglecorner\\assignmentrectanglecorner\\repository\\interface\\itestcaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBC07C07-8877-4145-8233-AB5192E0E844}|AssignmentRectangleCorner\\AssignmentRectangleCorner.csproj|solutionrelative:assignmentrectanglecorner\\repository\\interface\\itestcaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllRecords.cshtml",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Views\\Home\\GetAllRecords.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T08:27:29.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Views\\Home\\QuestionPage.cshtml",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Views\\Home\\QuestionPage.cshtml",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Views\\Home\\QuestionPage.cshtml",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Views\\Home\\QuestionPage.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAvwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-14T08:26:40.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwCMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:24:44.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestCaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Model\\TestCaseModel.cs",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Model\\TestCaseModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Model\\TestCaseModel.cs",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Model\\TestCaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:20:10.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITestCaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Repository\\Interface\\ITestCaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:17:19.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestCaseService.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "RelativeDocumentMoniker": "AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\Assignments\\AssignmentRectangleCorner\\AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "RelativeToolTip": "AssignmentRectangleCorner\\Repository\\TestCaseService.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAcwEQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:31:36.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

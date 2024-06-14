@@ -1,0 +1,45 @@
+﻿@model IEnumerable<EmployeeTaskCore.Models.EmployeeProjectModel>
+
+@{
+    ViewData["Title"] = "Complete Project Information";
+}
+
+<div class="mt-4 mb-2">
+    <h3 class="text-center">Projects Information</h3>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Project ID</th>
+            <th>Project Name</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+            <th>Resources</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var project in Model)
+        {
+            <tr>
+                <td>@project.ProjectId</td>
+                <td>@project.ProjectName</td>
+                <td>@project.StartDate</td>
+                <td>@project.DueDate</td>
+                <td>@project.Resources</td>
+                <td>
+                    <a asp-action="EditProject" asp-route-projectId="@project.ProjectId" class="btn btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="AddNewProject" class="btn btn-primary p-2 my-2">Add New Project</a>
+</div>
+
+<div>
+    <a asp-action="AdminDashboard" class="btn btn-secondary">Go To Dashboard</a>
+</div>

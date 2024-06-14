@@ -1,0 +1,29 @@
+FOR CODE CHECK OUT LOGIN FORM DOT NET PROJECT W/ SQL
+
+
+- Right click solution -> Add -> New Item
+- Select SQL Server Database
+
++++++ Explorer
+- In taskbar goto View-> click Server Explorer to open it.
+- Also we can double click on db.mdf file created to open explorer.
+
++++++ To Add table
+- Right click table and add Table -> use query/design to add
+
++++++ webpage.cs file include below namespaces
+"""
+using System.Configuration;
+using System.Data.SqlClient;
+"""
+
++++++ In Web.config add below into <configuration>
+"""
+<connectionStrings>
+	<add name="dbcs2" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kanaka\source\repos\SimpleLoginFormWithSQL\SimpleLoginFormWithSQL\App_Data\logindb.mdf;Integrated Security=True" providerName="System.Data.SqlClient" />
+</connectionStrings>
+"""
+- here for connection string , right click on being used db in explorer -> properties -> select value of ConnectionString field and paste it
+- for providerName paste namespace we added before ie. "System.Data.SqlClient"
+
+

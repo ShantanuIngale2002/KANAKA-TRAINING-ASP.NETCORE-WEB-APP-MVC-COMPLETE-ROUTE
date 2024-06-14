@@ -1,0 +1,39 @@
+++++++++++++++++++++++++++++++++++++++++++
++++++ FOR VALIDATORS
+- (Web.config only) : add below into <configuration>
+"""
+<appSettings>
+	<add key="validationSettings:UnobtrusiveValidationMode" value="None" />
+</appSettings>
+"""
+
+++++++++++++++++++++++++++++++++++++++++++
++++++ FOR SESSION
+- (Web.config only) : add below into <configuration> for session expire in 1 minute.
+"""
+<sessionState timeout="1"> </sessionState>
+"""
+
+++++++++++++++++++++++++++++++++++++++++++
++++++ FOR SQL
+- (Web.config and .cs both)
+
+- .cs file include below namespaces
+"""
+using System.Configuration;
+using System.Data.SqlClient;
+"""
+
+- Web.config add below into <configuration>
+"""
+<connectionStrings>
+	<add name="dbcs2" connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\kanaka\source\repos\SimpleLoginFormWithSQL\SimpleLoginFormWithSQL\App_Data\logindb.mdf;Integrated Security=True" providerName="System.Data.SqlClient" />
+</connectionStrings>
+"""
+- here for connection string , right click on being used db in explorer -> properties -> select value of ConnectionString field and paste it
+- for providerName paste namespace we added before ie. "System.Data.SqlClient"
+
++++++++++++++++++++++++++++++++++++++++++++++
++++++ FOR 
+
+

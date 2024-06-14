@@ -1,0 +1,37 @@
+STATE MANAGEMENT
+|
+|-- Client Side state mgmt
+|	|
+|	|-- View State
+|	|-- Control State
+|	|-- Hidden Fields
+|	|-- Cookies
+|	|-- Query Strings
+|	-
+|
+|
+|-- Server Side state mgmt
+|	|
+-	|-- Application State
+	|-- Session State
+	|-- Profile Properties
+	-
+
+
+
+BELOW ARE COVERED IN PLAYLIST
+
++++++ View State
+ViewState works on Page / WebForm level
+    - data shared between webform only
+
++++++ Session State
+SessionState works on Session / User level
+    - for each user session is different ie. if we paste sessionState file ie. prev learn file 
+      webform2's link into another browser it will redirect to webform1 due to no session found 
+      bcz as browswer change, user changes.
+
++++++ Application State
+ApplicationState works on Application Level
+    - works same as session just for all users it will be same
+      ie. for all browsers Application["user"]=val will be same for all

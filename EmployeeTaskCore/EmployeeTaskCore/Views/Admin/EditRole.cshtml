@@ -1,0 +1,31 @@
+﻿@model EmployeeTaskCore.Models.EmployeeRoleModel
+
+@{
+    ViewData["Title"] = "EditRole";
+}
+
+<div class="mt-4 mb-2">
+    <h3 class="">Edit Role's Name</h3>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditRole">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="RoleId" />
+            <div class="form-group">
+                <label asp-for="RoleName" class="control-label"></label>
+                <input asp-for="RoleName" class="form-control" />
+                <span asp-validation-for="RoleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="UPDATE" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="CompleteRoleInformation" class="btn btn-secondary text-nowrap">Goto Roles Information</a>
+</div>
+

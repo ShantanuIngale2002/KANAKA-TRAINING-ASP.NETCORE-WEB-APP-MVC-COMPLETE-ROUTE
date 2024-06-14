@@ -1,0 +1,48 @@
+Use this when you download project and you dont have database created prior.
+
+Creating a db prior is db first approach while this is Code first approach where db is newly created based on models specified in "dbcontext" and defined in "data" (by mistake also "model") folder.
+
+short :
+1. appsettings.json > change db name in connectin string
+2. if not have then down 3 entity frameworks (core, sql server, tools)
+3. Tools >> Nugget Pakage Manager >> Pakage Manager Console
+	Add-Migration [unique_migration_name]
+	Update-Database
+
+(solution for a mistake - tables created for unncessary models defined in model folder)
+comment not required model from dbcontext then again do
+3. Tools >> Nugget Pakage Manager >> Pakage Manager Console
+	Add-Migration [new_unique_migration_name]
+	Update-Database
+
+
+
+Descriptive:
+
+1. In appsettings.json >> Enter a new unique db name to be created
+
+"ConnectionStrings": {
+  "DbConnectionString": "Data Source=[db_source]\\SQLEXPRESS;Initial Catalog=[new_db_name];Integrated Security=True;Trust Server Certificate=True"
+},
+
+#you can checkout the db_source using SQL Sercer Mgmt.
+for example 
+"ConnectionStrings": {
+  "DbConnectionString": "Data Source=DESKTOP-OK5KH4G\\SQLEXPRESS;Initial Catalog=CoreTaskEmployeeMigratedDB;Integrated Security=True;Trust Server Certificate=True"
+},
+
+
+2. Right Click Solution add (browse) :
+	i. Microsoft.EntityFrameworkCore
+	ii. Microsoft.EntityFrameworkCore.SqlServer
+	iii. Microsoft.EntityFrameworkCore.Tools
+
+3. Tools >> Nugget Pakage Manager >> Pakage Manager Console and Enter :
+	i. Add-Migration [unique_migration_name(any)]
+	ii. Update-Database
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "EmployeeDashboard";
+}
+
+<h1>EmployeeDashboard</h1>
+
+<h2>@ViewBag.MySession</h2>
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Employee" asp-action="DisplayEmployee" class="btn btn-primary btn-block">View Profile</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Employee" asp-action="ProjectInformation" class="btn btn-success btn-block">Project Details</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Employee" asp-action="EmployeeLeave" class="btn btn-info btn-block">Leave System</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Employee" asp-action="EmployeeLogout" class="btn btn-info btn-block">Logout</a>
+        </div>
+    </div>
+</div>

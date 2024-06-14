@@ -1,0 +1,143 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmployeeTaskCoreWithManager
+build_property.RootNamespace = EmployeeTaskCoreWithManager
+build_property.ProjectDir = C:\Users\kanaka\source\repos\ASP.NET CORE\EmployeeTaskCoreIncManager\EmployeeTaskCoreWithManager\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\kanaka\source\repos\ASP.NET CORE\EmployeeTaskCoreIncManager\EmployeeTaskCoreWithManager
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/AddNewEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3RW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/AddNewProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3UHJvamVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/AddNewRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkTmV3Um9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRtaW5EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/CompleteEmployeeInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGxldGVFbXBsb3llZUluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/CompleteProjectInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGxldGVQcm9qZWN0SW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/CompleteRoleInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ29tcGxldGVSb2xlSW5mb3JtYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/DeleteEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlRW1wbG95ZWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/EditEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/EditProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/GetEmployeeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cR2V0RW1wbG95ZWVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Admin/PostEmployeeID.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUG9zdEVtcGxveWVlSUQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/ApplyPaidLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQXBwbHlQYWlkTGVhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/ApplyPaylossLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQXBwbHlQYXlsb3NzTGVhdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/DisplayEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGlzcGxheUVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/EmployeeDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/EmployeeLeave.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVMZWF2ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/EmployeePaidLeaveApply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRW1wbG95ZWVQYWlkTGVhdmVBcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/LeavesHistory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcTGVhdmVzSGlzdG9yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Employee/ProjectInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcUHJvamVjdEluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/kanaka/source/repos/ASP.NET CORE/EmployeeTaskCoreIncManager/EmployeeTaskCoreWithManager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-12sngs05xt

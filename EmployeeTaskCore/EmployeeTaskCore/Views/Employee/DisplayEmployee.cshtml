@@ -1,0 +1,108 @@
+﻿@model CoreTaskEmployee.Models.EmployeeDisplayModel
+
+@{
+    ViewData["Title"] = "DisplayEmployee";
+}
+
+
+
+<div class="mt-3 align-content-center">
+    <div class="text-center">
+        <h4 class="ms-2">Profile Information</h4>
+    </div>
+    <hr />
+    <dl class="row justify-content-center">
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class="col-sm-4 text-sm-right">
+                Name
+            </dt>
+            <dd class="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeName)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Date of Birth
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeDOB)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Date of Joining
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeDOJ)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                City
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeCity)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                State
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeState)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Country
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeCountry)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Contact
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeContact)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Blood Group
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeBloodGroup)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Project Name
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeProject)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center">
+            <dt class = "col-sm-4 text-sm-right">
+                Position
+            </dt>
+            <dd class ="col-sm-4 text-sm-start">
+                @Html.DisplayFor(model => model.EmployeeRole)
+            </dd>
+        </div>
+        <div class="row col-12 d-flex justify-content-center mt-5">
+            <div class="col-sm-4 text-sm-right">
+                <a asp-controller="Employee" asp-action="EditUsernameAndPassword" class="btn btn-info py-1 px-2 my-2">Change Credentials</a>
+            </div>
+            <div class="col-sm-4 text-sm-start">
+                <a asp-controller="Home" asp-action="EmployeeOrAdmin" class="btn btn-secondary py-1 px-2 my-2">Goto Dashboard</a>
+            </div>
+        </div>
+    </dl>
+</div>
+
+
+
+

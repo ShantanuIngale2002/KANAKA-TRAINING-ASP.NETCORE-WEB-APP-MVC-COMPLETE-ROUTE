@@ -1,0 +1,45 @@
+﻿@model List<EmployeeTaskCore.Models.EmployeeProjectModel>
+
+@{
+    ViewData["Title"] = "ProjectInformation";
+}
+
+<div>
+    <h3 class="text-center">Projects Information</h3>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Project ID</th>
+            <th>Project Name</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+            <th>Resources</th>
+            @* <th>Edit</th>
+            <th>Delete</th> *@
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.ProjectId</td>
+                <td>@employee.ProjectName</td>
+                <td>@employee.StartDate</td>
+                <td>@employee.DueDate</td>
+                <td>@employee.Resources</td>
+                @* <td>
+                    <a asp-action="EditEmployee" asp-route-EmployeeId="@employee.ProjectId" class="btn btn-primary">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="DeleteEmployee" asp-route-EmployeeId="@employee.ProjectId" class="btn btn-danger">Delete</a>
+                </td> *@
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-controller="Home" asp-action="EmployeeOrAdmin" class="btn btn-info btn-block">Dashboard</a>
+</div>

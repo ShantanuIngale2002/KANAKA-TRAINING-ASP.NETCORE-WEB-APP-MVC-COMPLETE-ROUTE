@@ -1,0 +1,307 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\leave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\employeerolemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\employeerolemap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\employeeprojectmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\employeeprojectmap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\data\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\models\\employeeleavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\models\\employeeleavemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\models\\employeeidmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\models\\employeeidmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\models\\employeedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\models\\employeedisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\models\\employeecompletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\models\\employeecompletemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\repository\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\repository\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\repository\\interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\repository\\interface\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|c:\\users\\kanaka\\source\\repos\\asp.net core\\coretaskemployee\\coretaskemployee\\repository\\efcore\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB10BA0E-C9EC-4EE6-943F-F1F4A98700C3}|CoreTaskEmployee\\CoreTaskEmployee.csproj|solutionrelative:coretaskemployee\\repository\\efcore\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\LoginModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreTaskEmployee\\Models\\LoginModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\SignupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CoreTaskEmployee\\Models\\SignupModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Program.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Program.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Program.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:58:32.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Role.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\Role.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Role.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:44:23.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAswBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T07:49:04.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\appsettings.json",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\appsettings.json",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\appsettings.json",
+              "RelativeToolTip": "CoreTaskEmployee\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-29T05:12:22.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Leave.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Leave.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\Leave.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Leave.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\Leave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:44:26.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Project.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Project.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\Project.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Project.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\Project.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T08:10:45.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeRoleMap.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\EmployeeRoleMap.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\EmployeeRoleMap.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\EmployeeRoleMap.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\EmployeeRoleMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:18:33.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeProjectMap.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\EmployeeProjectMap.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\EmployeeProjectMap.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\EmployeeProjectMap.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\EmployeeProjectMap.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T10:16:37.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Employee.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Data\\Employee.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Data\\Employee.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Data\\Employee.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAA5wCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:28:13.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeLeaveModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeLeaveModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\EmployeeLeaveModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeLeaveModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\EmployeeLeaveModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T06:35:39.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmployeeIdModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeIdModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\EmployeeIdModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeIdModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\EmployeeIdModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T08:16:59.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeCompleteModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeCompleteModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\EmployeeCompleteModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeCompleteModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\EmployeeCompleteModel.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAkwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:06:32.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeDisplayModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\EmployeeDisplayModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\EmployeeDisplayModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\EmployeeDisplayModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:21:20.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Repository\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\EmployeeService.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Repository\\EmployeeService.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAiwKMAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T10:10:05.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\Interface\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Repository\\Interface\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\Interface\\IEmployeeRepository.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Repository\\Interface\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:02:06.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\EFCore\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Repository\\EFCore\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Repository\\EFCore\\EmployeeDbContext.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Repository\\EFCore\\EmployeeDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T09:42:29.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SignupModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\SignupModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\SignupModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\SignupModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\SignupModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:27:53.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "CoreTaskEmployee\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\kanaka\\source\\repos\\ASP.NET CORE\\CoreTaskEmployee\\CoreTaskEmployee\\Models\\LoginModel.cs",
+              "RelativeToolTip": "CoreTaskEmployee\\Models\\LoginModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T07:27:43.237Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

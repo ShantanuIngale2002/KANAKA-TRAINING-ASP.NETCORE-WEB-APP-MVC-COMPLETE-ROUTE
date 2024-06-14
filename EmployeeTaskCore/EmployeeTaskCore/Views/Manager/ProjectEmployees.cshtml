@@ -1,0 +1,53 @@
+﻿@model IEnumerable<CoreTaskEmployee.Models.EmployeeDisplayModel>
+
+
+@{
+    ViewData["Title"] = "ProjectInformation";
+}
+
+<div class="mt-4 mb-2">
+    <h3 class="text-center">Project Employees Information</h3>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Date of Joining</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Country</th>
+            <th>Contact</th>
+            <th>Role</th>
+            <th>Remove</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.EmployeeId</td>
+                <td>@employee.EmployeeName</td>
+                <td>@employee.EmployeeDOB</td>
+                <td>@employee.EmployeeDOJ</td>
+                <td>@employee.EmployeeCity</td>
+                <td>@employee.EmployeeState</td>
+                <td>@employee.EmployeeCountry</td>
+                <td>@employee.EmployeeContact</td>
+                <td>@employee.EmployeeRole</td>
+                <td>
+                    <a asp-action="RemoveEmployeeFromProject" asp-route-EmployeeId="@employee.EmployeeId" asp-route-ProjectName="@employee.EmployeeProject" class="btn btn-danger">Remove</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="AssignNewEmployee" asp-route-ProjectName="@Model.First().EmployeeProject" class="btn btn-info btn p-2 my-2">Assign New Employee</a>
+</div>
+<div>
+    <a asp-action="ManagerProjectInformation" class="btn btn-secondary btn">Goto Projects</a>
+</div>

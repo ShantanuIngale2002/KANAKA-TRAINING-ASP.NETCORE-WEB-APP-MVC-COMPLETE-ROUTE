@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "AdminDashboard";
+}
+
+<h2>@ViewBag.MySession</h2>
+
+
+<div class="container mt-4">
+    <div class="row mb-4">
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="DisplayEmployee" class="btn btn-info btn-block">View Profile</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="ProjectInformation" class="btn btn-info btn-block">Project Details</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="EmployeeLeave" class="btn btn-info btn-block">Leave System</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Employee" asp-action="EmployeeLogout" class="btn btn-warning btn-block">Logout</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="PostEmployeeID" class="btn btn-secondary btn-block">Search Employee</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="CompleteProjectInformation" class="btn btn-success btn-block">Projects Information</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="CompleteRoleInformation" class="btn btn-success btn-block">Roles Information</a>
+        </div>
+        <div class="col-md-3 mb-3">
+            <a asp-controller="Admin" asp-action="CompleteEmployeeInformation" class="btn btn-secondary btn-block">EmployeesDetails</a>
+        </div>
+    </div>
+</div>
+<hr />

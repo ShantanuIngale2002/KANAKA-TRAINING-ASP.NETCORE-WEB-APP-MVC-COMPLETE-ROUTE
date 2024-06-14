@@ -1,0 +1,44 @@
+﻿@model CoreTaskEmployee.Models.EmployeeLeaveModel
+
+@{
+    ViewData["Title"] = "EmployeeLeave";
+}
+
+<h1>EmployeeLeave</h1>
+
+<div>
+    <h4>EmployeeLeaveModel</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaidLeavesTaken)
+        </dt>
+        <dd class = "col-sm-4">
+            @Html.DisplayFor(model => model.EmployeePaidLeavesTaken)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaidLeavesRemain)
+        </dt>
+        <dd class = "col-sm-4">
+            @Html.DisplayFor(model => model.EmployeePaidLeavesRemain)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EmployeePaylossLeavesTaken)
+        </dt>
+        <dd class = "col-sm-4">
+            @Html.DisplayFor(model => model.EmployeePaylossLeavesTaken)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-controller="Home" asp-action="EmployeeOrAdmin" class="btn btn-info btn-block">Dashboard</a>
+</div>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-3">
+            <a asp-controller="Employee" asp-action="LeavesHistory" class="btn btn-primary btn-block">Leave History</a>
+            <a asp-controller="Employee" asp-action="EmployeePaidLeaveApply" class="btn btn-info btn-block">Take Paid Leave</a>
+            <a asp-controller="Employee" asp-action="ApplyPaylossLeave" class="btn btn-info btn-block">Take Payloss Leave</a>
+        </div>
+    </div>
+</div>

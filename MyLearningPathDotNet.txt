@@ -1,0 +1,59 @@
+Journey to learn .NET 
+
+Learn 1 : {C# syntax}
+30/04 - basic -> advance inc. oops
+
+
+Learn 2 : {ASP WebForms}
+>>01/05 
+- intro
+- Created 1st web form
+- Master Page //common content for all pages ex. header footer
+- CSS add and use
+- Required Field Validator
+>>02/05
+- Regular Expression Validator
+- Compare Validator
+- Validation Summary
+- Range validator
+- Custom Validation
+- isPostBack property //works for 2nd reload and next
+- ViewState //shares data betn webpages
+- Session State //shares data betn webpages in application being diffr for each user
+- application State //shares data betn webpages in application being same for all users
+>>03/05
+- Query String  //shares data betn webpages through url "file?data1=value1&data2=value2&..."
+- Simple Login Form w/ SQL
+
+*********************************
+IMPORTANT STUFF's
+
+++ Right Click any webform and select Set as Start Page
+- even if you run any page from application start setted page will run first.
+
+
+Learn 3 : {ASP .NET MVC}
+>>06/05
+- Learned Basic concepts upto 12/05
+>>12/05
+- Learned about CURD : 1. Code First u/ entity framework and linq 2. Database first
+>>13/05
+- Login Page
+>>14/05
+-Signup and Home Page
+
+
+Learn 4 : {ASP.NET CORE}
+>>14/05
+- .net v/s mvc v/s core
+- MVC >>
+
+  ----(updates)-- [MODEL] <---(get data)-----
+  |					    |
+ \./					    |
+[VIEW] <-------(if no data)------------ [CONTROLLER]
+   |					   /.\
+   |					    |
+   ----(seen by)---> [USER]-----(requets)----
+
+- 

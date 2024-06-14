@@ -1,0 +1,44 @@
+﻿@model EmployeeTaskCore.Models.LeaveApplyModel
+
+@{
+    ViewData["Title"] = "ApplyPaylossLeave";
+}
+
+<h1>ApplyPaylossLeave</h1>
+
+<h4>LeaveApplyModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ApplyPaylossLeave">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StartDate" class="control-label"></label>
+                <input asp-for="StartDate" class="form-control" type="date" min="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="StartDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" type="date" min="@DateTime.Today.ToString("yyyy-MM-dd")" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Reason" class="control-label"></label>
+                <input asp-for="Reason" class="form-control" />
+                <span asp-validation-for="Reason" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Applied To:</label>
+                <p>@Model.AppliedTo</p>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Apply" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Employee" asp-action="EmployeeLeave" class="btn btn-info btn-block">Go To Leave</a>
+</div>
+
